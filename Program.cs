@@ -12,7 +12,7 @@ class Program
 
         string filePath = Path.Combine(AppContext.BaseDirectory, "todos.json");
 
-
+        // Loads todos via method. 
         List<Todo>? todosList = LoadTodos(filePath);
 
         string? userInput;
